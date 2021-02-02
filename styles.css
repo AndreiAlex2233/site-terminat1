@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+body nav{
+    width: 20%;
+    height: 100%;
+}
+body section{
+    width: 80%;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
+}
